@@ -26,10 +26,10 @@ export const Home = () => {
       {/* Div 2: Middle */}
       <div className="middle flex flex-col items-center justify-center">
         <div className="w-6/12 text-center">
-          <h1 className="text-6xl mb-4 font-bold">
+          <h1 className="lg:text-6xl text-4xl mb-6 font-bold">
             Addition and Subtraction Facts within 20
           </h1>
-          <p className="text-2xl mb-4">
+          <p className="lg:text-2xl text-lg mb-4">
             Test your knowledge with the following questions, tap a card to flip
             it and uncover the answer, good luck!
           </p>
