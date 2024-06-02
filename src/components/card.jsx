@@ -146,8 +146,11 @@ const Carousal = () => {
               >
                 <div className="absolute w-full h-full transition-opacity duration-500 ease-in-out">
                   {!flipped ? (
-                    <div className="flex flex-col items-center p-2 mt-20">
-                      <h1 className="lg:text-3xl text-2xl font-semibold leading-normal text-black w-3/4">
+                    <div className="flex flex-col items-center p-2">
+                      <h1
+                        className="lg:text-3xl text-2xl absolute top-8 
+                      lg:top-16 font-semibold leading-normal text-black w-3/4"
+                      >
                         {item.backContent}
                       </h1>
                       <p className="text-black absolute bottom-8">
