@@ -347,9 +347,9 @@ const Carousal = () => {
                       <h2 className="text-2xl mt-2 text-black">
                         {item.description}
                       </h2>
-                      <p className="text-lg mt-2 text-black">
+                      {/* <p className="text-lg mt-2 text-black">
                         {item.description}
-                      </p>
+                      </p> */}
                     </div>
                   )}
                 </div>
@@ -367,7 +367,6 @@ const Carousal = () => {
       </div>
     </div>
   )
-  // kmkmkmk
 }
 
 export default Carousal
